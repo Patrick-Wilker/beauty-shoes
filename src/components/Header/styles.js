@@ -11,6 +11,12 @@ export const Container = styled.header`
         width: 250px;
     }
 
+    @media only screen and (max-width: 500px){
+        img{
+            width: 200px;
+        }
+    }
+
 `;
 
 export const Cart = styled(Link)`
